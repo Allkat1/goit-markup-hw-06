@@ -798,6 +798,7 @@ body {
 
 .footer-input-wrap {
   display: flex;
+  color: var(--secondary-color);
 }
 
 .subscribe-button {
@@ -830,17 +831,17 @@ body {
 }
 
 .footer-input-wrap {
-  position: relative;
-  display: block;
   display: flex;
+  color: var(--secondary-color);
 }
 
 .footer-input {
-  width: 100%;
+  width: 264px;
   height: 40px;
-  border: 1px solid var(--navy-blue);
+  border: 1px solid var(--secondary-color);
+  background-color: var(--navy-blue);
   border-radius: 5px;
-  padding-left: 30px;
+  padding-left: 16px;
   font-size: 14px;
   outline: transparent;
   margin-right: 24px;

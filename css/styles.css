@@ -903,7 +903,7 @@ body {
   fill: transparent;
 }
 
-.modal-check:checked + .user-privacy-ic {
+.modal-check:checked + .check-text span {
   color: var(--cloud-color);
   border: none;
   background-color: var(--ocean);

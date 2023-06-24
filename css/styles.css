@@ -828,11 +828,12 @@ body {
 
 .subscribe-text {
   margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--secondary-color);
 }
 
 .footer-input-wrap {
   display: flex;
-  color: var(--secondary-color);
 }
 
 .footer-input {
@@ -845,4 +846,5 @@ body {
   font-size: 14px;
   outline: transparent;
   margin-right: 24px;
+  color: var(--secondary-color);
 }

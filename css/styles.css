@@ -901,3 +901,13 @@ body {
   justify-content: center;
   fill: transparent;
 }
+
+.user-privacy:checked + .user-privacy-ic {
+  color: var(--cloud-color);
+  border: none;
+  background-color: var(--ocean);
+}
+
+.privat-pol-link {
+  color: var(--links-text-color);
+}

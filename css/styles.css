@@ -777,6 +777,7 @@ body {
 .modal-field:hover .modal-icon,
 .modal-field:focus .modal-icon {
   fill: var(--links-text-color);
+  fill: #4d5ae5;
 }
 
 .modal-comment {
@@ -902,7 +903,7 @@ body {
   fill: transparent;
 }
 
-.user-privacy:checked + .user-privacy-ic {
+.modal-check:checked + .user-privacy-ic {
   color: var(--cloud-color);
   border: none;
   background-color: var(--ocean);
@@ -910,4 +911,17 @@ body {
 
 .privat-pol-link {
   color: var(--links-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

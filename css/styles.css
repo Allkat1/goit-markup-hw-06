@@ -834,6 +834,7 @@ body {
 
 .footer-input-wrap {
   display: flex;
+  gap: 24px;
 }
 
 .footer-input {

@@ -777,7 +777,11 @@ body {
 .modal-field:hover .modal-icon,
 .modal-field:focus .modal-icon {
   fill: var(--links-text-color);
-  fill: #4d5ae5;
+}
+
+.modal-input:hover .modal-icon,
+.modal-input:focus .modal-icon {
+  fill: var(--links-text-color);
 }
 
 .modal-comment {
@@ -907,6 +911,7 @@ body {
   color: var(--cloud-color);
   border: none;
   background-color: var(--ocean);
+  fill: var(--secondary-color);
 }
 
 .privat-pol-link {
@@ -924,8 +929,4 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.check-icon {
-  fill: var(--secondary-color);
 }

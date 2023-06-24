@@ -779,8 +779,12 @@ body {
   fill: var(--links-text-color);
 }
 
-.modal-input:hover .modal-icon,
+/* .modal-input:hover .modal-icon,
 .modal-input:focus .modal-icon {
+  fill: var(--links-text-color);
+} */
+
+.modal-input:focus + .modal-icon {
   fill: var(--links-text-color);
 }
 
@@ -911,7 +915,7 @@ body {
   color: var(--cloud-color);
   border: none;
   background-color: var(--ocean);
-  fill: var(--secondary-color);
+  fill: var(--cloud-color);
 }
 
 .privat-pol-link {

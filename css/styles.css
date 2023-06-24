@@ -817,6 +817,10 @@ body {
   color: var(--light-slate);
 }
 
+.modal-check:focus + .check-text {
+  color: var(--links-text-color);
+}
+
 .subscribe-footer-menu {
   display: block;
   align-items: flex-end;

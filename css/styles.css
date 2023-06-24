@@ -796,7 +796,7 @@ body {
   align-items: flex-end;
 }
 
-.footer-input-wrap {
+.footer-form {
   display: flex;
   color: var(--secondary-color);
 }
